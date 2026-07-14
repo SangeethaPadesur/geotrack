@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+/* LEAFLET POPUP ADJUSTMENTS */
+.custom-leaflet-popup .leaflet-popup-content-wrapper {
+  background: #ffffff !important;
+  color: #0f172a !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+.custom-leaflet-popup .leaflet-popup-tip {
+  background: #ffffff !important;
+}
