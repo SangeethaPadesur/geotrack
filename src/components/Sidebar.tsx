@@ -1,4 +1,11 @@
-export const Sidebar = ({center, filter , setFilter, setSelectedPosition}:any) => {
+interface SidebarProps {
+  center: [number, number] | null;
+  filter: "all" | "active" | "idle" | "delayed";
+  setFilter: (filter: "all" | "active" | "idle" | "delayed") => void;
+  setSelectedPosition: (position: [number, number] | null) => void;
+}
+
+export const Sidebar = ({center, filter , setFilter, setSelectedPosition}: SidebarProps) => {
     return (
          <aside className="w-80 flex-shrink-0 border-r border-slate-800 bg-slate-900/50 p-6 flex flex-col justify-between">
         <div className="space-y-8">
