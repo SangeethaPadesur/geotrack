@@ -29,7 +29,7 @@ export const Sidebar = ({center, filter , setFilter, setSelectedPosition}) => {
           <div className="space-y-10">
             <label className="text-xs font-semibold uppercase tracking-wider text-slate-500">Live Telemetry Hook</label>
             <button 
-              onClick={() => setSelectedposition(center)}
+              onClick={() => setSelectedPosition(center)}
               className="w-full px-4 py-3 bg-slate-900 border border-slate-800 hover:border-indigo-500 text-left text-xs rounded-xl flex items-center justify-between transition-all group cursor-pointer"
             >
               <div>
