@@ -1,4 +1,4 @@
-export const Sidebar = ({center, filter , setFilter, setSelectedPosition}) => {
+export const Sidebar = ({center, filter , setFilter, setSelectedPosition}:any) => {
     return (
          <aside className="w-80 flex-shrink-0 border-r border-slate-800 bg-slate-900/50 p-6 flex flex-col justify-between">
         <div className="space-y-8">

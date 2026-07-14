@@ -1,7 +1,8 @@
 import { useMemo, useEffect, useState } from "react";
 import { MapContainer, TileLayer, CircleMarker, Popup, useMap } from "react-leaflet";
 import type { Driver } from "../hooks/useFleetStream";
-import { useFPS } from "../hooks/useFps";
+import { useFPS } from "../hooks/useFPS";
+
 
 interface MapControllerProps {
   selectedDriverPosition: [number, number] | null;
